@@ -73,5 +73,59 @@ num3 = num1 + num2;
 print(num3);
 print(type(num3))
 
+#07 List
+#Python Lists are just like dynamically sized arrays, 
+# declared in other languages (vector in C++ and ArrayList in Java).
+# In simple language, a list is a collection of things, enclosed in [ ] and separated by commas. 
+l1 = [1,3,5,7,9,4,3,2,5];
+l2 = ["taj","ayaj","raj","pravin"];
+print(l1);
+print(l2);
+print(type(l1))
 
 
+#08 Tuple
+#Python Tuple is a collection of objects separated by commas.
+# In some ways, a tuple is similar to a Python list in terms of
+# indexing, nested objects, and repetition but the main difference between
+# both is Python tuple is immutable, unlike the Python list which is mutable.
+#To create a tuple we will use () operators.
+t1 = (2,4,6,7,8,9,12);
+t2 = ("taj","ayaj","raj","pravin")
+print(t1);
+print(t2);
+t1 = (2,3,5,6)
+print(t1)
+print(type(t1))
+#t1[3] = 9;   #error as it is immutable item cannot be assigned a new value
+
+
+#09 Dictionary
+#A dictionary in Python is a data structure that stores the value in value:key pairs.
+dict1 = {
+#number : frequency
+    5 : 4,
+    7 : 3,
+    9 : 7,
+    8 : 2
+}
+print(dict1);
+dict2 = {
+    "rollNo" : 14,
+    "Name" : "Taj",
+    "Gender" : "Male",
+    "Mark" : True
+}
+print(dict2);
+print(type(dict1))
+
+
+#10 Sets
+#A Python set is the collection of the unordered items.
+# Each element in the set must be unique, immutable, and
+# the sets remove the duplicate elements.
+# There is no index attached to the elements of the set, i.e.,
+# we cannot directly access any element of the set by the index.
+s1 = {2,4,6,7,8,9};
+print(s1)
+print(type(s1))
