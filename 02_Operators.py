@@ -24,8 +24,22 @@ division = num2 / num1;
 print(division);
 print();
 
+#05 Modulo
+remainder = 17 % 5;
+print(remainder);
+print();
 
-#Relational Operators (<,>,==,!=,<=,>=)
+#06 Exponentiation (a^b)
+num = 3**3;
+print(num);
+print();
+
+#07 Floor Division
+num = 17 // 5;
+print(num);
+print();
+
+#Relational or comparison Operators (<,>,==,!=,<=,>=)
 num1 = 7;
 num2 = 9;
 
@@ -58,6 +72,27 @@ print();
 greaterThanEqualTo = num1 >= num2;
 print(greaterThanEqualTo)
 print();
+
+
+#Assignment Operators
+#01 Equal (=)
+num = 5;
+print(num);   #5
+print();
+
+#02 minus equal (-=)
+num = 10;
+num -= 5;
+print(num)   #10-5 = 5
+print();
+
+#03 plus equal (+=)
+num = 10;
+num += 5;
+print(num);    #10 + 5 = 15
+print();
+
+# Similarly *= , /= , **= , and so on
 
 
 # Logical Opeators (and,or,not)

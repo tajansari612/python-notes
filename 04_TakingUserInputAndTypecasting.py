@@ -1,7 +1,18 @@
 #Taking user input
-name = input("Enter your name :");
-print("Hello ,"+name);
+# name = input("Enter your name :");
+# print("Hello ,"+name);
+
 
 #Typecating
-num = int(input("Enter your roll number :"));
-print("Your roll number is :"+num);
+
+#01 integer to string
+num = 123;
+str1 = str(num);
+print(str1);
+print(type(str1));
+
+#02 string to integer
+str2  = "1345";
+num = int(str2);
+print(num);
+print(type(num));
