@@ -10,9 +10,28 @@ num = 123;
 str1 = str(num);
 print(str1);
 print(type(str1));
+print();
 
 #02 string to integer
 str2  = "1345";
 num = int(str2);
 print(num);
 print(type(num));
+print();
+
+#03 list to tuple
+l1 = [1,2,3,4,5];
+print(l1);
+print(type(l1));
+t1 = tuple(l1);
+print(t1);
+print(type(t1));
+print();
+
+#04 tuple to list
+t1 = (1,2,3,4,5);
+print(t1);
+print(type(t1));
+l1 = list(t1);
+print(l1);
+print(type(l1));
