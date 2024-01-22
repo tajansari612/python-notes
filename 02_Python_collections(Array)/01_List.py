@@ -96,3 +96,10 @@ print(l1);
 l1.sort();
 l1.sort(reverse=True);
 print(l1);
+print();
+
+# Joining two tuples
+l1 = [1,2,3,4];
+l2 = [3,4,5,6];
+l1 = l1+l2;
+print(l1);
