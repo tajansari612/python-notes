@@ -40,7 +40,11 @@ for i in range(1,10,2):    #range(start,end,step)
     print(i);
 
 l1 = [1,5,7,3,4,9];
-for i in l1:
+for i in l1:     
+    print(i);
+print()
+
+for i in reversed(l1):  #in reverse order
     print(i);
 print()
 
