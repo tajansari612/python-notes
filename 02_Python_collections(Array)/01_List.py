@@ -103,3 +103,12 @@ l1 = [1,2,3,4];
 l2 = [3,4,5,6];
 l1 = l1+l2;
 print(l1);
+print();
+
+#iterating through list
+l1 = [9,8,4,5,7,4,3,27];
+for i in l1:
+    print(i);
+print("------");
+for i in range(0,len(l1)):
+    print(i," ---> ",l1[i]);

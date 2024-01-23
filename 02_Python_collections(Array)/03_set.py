@@ -67,3 +67,10 @@ s1 = {1,2,3,3,4};
 s2 = {2,3,3,4,5,6};
 s1 = s1.symmetric_difference(s2);
 print(s1);
+print();
+
+#iterating through set
+s1 = {9,8,4,5,7,4,3,27};
+for i in s1:
+    print(i);
+print();

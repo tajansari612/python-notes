@@ -52,3 +52,12 @@ t1 = (1,2,3,4);
 t2 = (3,4,5,6);
 t1 = t1+t2;
 print(t1);
+
+
+#iterating through tuple
+t1 = (9,8,4,5,7,4,3,27);
+for i in t1:
+    print(i);
+print("------");
+for i in range(0,len(t1)):
+    print(i," ---> ",t1[i]);
