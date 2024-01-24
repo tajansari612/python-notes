@@ -35,3 +35,16 @@ print(type(t1));
 l1 = list(t1);
 print(l1);
 print(type(l1));
+print();
+
+#05 string to list
+str = "Hello World!";
+print(str,type(str));
+l1 = list(str);
+print(l1,type(l1));
+print();
+
+#06 list to string
+# print(l1,type(l1));  #error
+# str = str(l1);
+# print(str,type(str));
